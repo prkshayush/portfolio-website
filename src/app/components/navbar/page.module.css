@@ -1,0 +1,92 @@
+
+.link{
+    font-weight: bold;
+    font-size: 17px;
+}
+.link:nth-child(1) {
+    border: none;
+    background: none;
+  }
+  
+  .link:nth-child(1)::before {
+    margin-left: auto;
+  }
+  
+  .link:nth-child(1)::after, .link:nth-child(1)::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .link:nth-child(1):hover::after, .link:nth-child(1):hover::before {
+    width: 100%;
+  }
+  
+.link:nth-child(2) {
+    border: none;
+    background: none;
+  }
+  
+  .link:nth-child(2)::before {
+    margin-left: auto;
+  }
+  
+  .link:nth-child(2)::after, .link:nth-child(2)::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .link:nth-child(2):hover::after, .link:nth-child(2):hover::before {
+    width: 100%;
+  }
+  
+.link:nth-child(3) {
+    border: none;
+    background: none;
+  }
+  
+  .link:nth-child(3)::before {
+    margin-left: auto;
+  }
+  
+  .link:nth-child(3)::after, .link:nth-child(3)::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .link:nth-child(3):hover::after, .link:nth-child(3):hover::before {
+    width: 100%;
+  }
+  
+.link:nth-child(4) {
+    border: none;
+    background: none;
+  }
+  
+  .link:nth-child(4)::before {
+    margin-left: auto;
+  }
+
+  .link:nth-child(4)::after, .link:nth-child(4)::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .link:nth-child(4):hover::after, .link:nth-child(4):hover::before {
+    width: 100%;
+  }

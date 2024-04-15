@@ -1,0 +1,7 @@
+
+.year{
+    background: linear-gradient(135deg, rgb(115, 251, 115), rgb(0, 174, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

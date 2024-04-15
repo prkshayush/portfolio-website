@@ -1,2 +1,5 @@
-# portfolio-website
-Portfolio website made using NextJS, TailwindCSS and TypeScript
+# Portfolio-Website
+
+- created using NextJS, TypeScript, TailwindCSS
+- currently only UI & some frontend
+- admin dashboard, blogs section is currently in development

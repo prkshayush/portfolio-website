@@ -1,0 +1,12 @@
+.container{
+    line-height: 1.5;
+    max-width: 18vw;
+    min-height: 55vh;
+    border: none;
+    border-radius: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #121111, teal);
+    text-align: justify;
+}

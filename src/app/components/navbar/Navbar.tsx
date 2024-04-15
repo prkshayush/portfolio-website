@@ -31,7 +31,7 @@ const links = [
 
 export default function Navbar() {
     return (
-        <div className='flex justify-between items-center py-2 fixed w-full bg-dark text-light drop-shadow-3xl z-[100]'>
+        <div className='flex justify-between items-center py-2 fixed w-full text-slate-300 bg-slate-950 z-[100]'>
             <Link href='/' className="mx-10">
                 <Image src='/logo-dark.png' alt='Logo' width={70} height={70} className="priortiy" />
             </Link>

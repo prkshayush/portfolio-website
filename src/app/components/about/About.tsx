@@ -6,7 +6,7 @@ import Button from '../buttons/Buttons'
 
 export default function About() {
   return (
-    <div className="flex-col lg:flex lg:flex-row gap-16 p-10" id='about'>
+    <div className="flex-col lg:flex lg:flex-row gap-16 p-10">
 
       {/* image content */}
 

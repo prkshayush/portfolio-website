@@ -45,7 +45,7 @@ export default function Menu() {
 
       {
         isOpen ?
-          <div className="min-w-[40vw] max-h-[60vh] flex flex-col justify-between items-center gap-5 z-30 my-auto fixed left-1/2 rounded-2xl -translate-x-1/2 bg-cyan-600/90 py-28 border-2 border-cyan-700">
+          <div className="min-w-[40vw] max-h-[60vh] flex flex-col justify-between items-center gap-5 z-30 my-auto fixed left-1/2 rounded-2xl -translate-x-1/2 bg-cyan-600/90 p-24 border-2 border-cyan-700">
             {links.map(link => (
               <Link key={link.id} href={link.url} className='text-2xl font-semibold' onClick={handleClick}>{link.title}</Link>
             ))}

@@ -34,7 +34,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div id="main" className="flex flex-col">
+        <div id="main" className="flex flex-col mt-16">
             <div className="w-full my-10 p-5 flex items-center flex-col gap-3">
                 <h1 className='uppercase text-2xl md:text-3xl lg:text-5xl font-semibold text-teal-200'>Projects</h1>
                 <p className="text-lg font-medium text-teal-500 my-2 sm:text-base">Some awesome pieces of code & desgin, turned into reality</p>

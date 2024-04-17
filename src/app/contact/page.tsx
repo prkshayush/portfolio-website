@@ -4,7 +4,7 @@ import Card from '../components/card/Card'
 
 export default function Contact() {
   return (
-    <div className='w-full h-full p-10'>
+    <div className='w-full h-full p-10 mt-16'>
       <h1 className="text-2xl lg:text-5xl font-bold my-5 text-center uppercase text-teal-300">Contact</h1>
       <h3 className="text-center lg:text-2xl mb-16 text-base">Wanna connect? Send a message!!</h3>
       

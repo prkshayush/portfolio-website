@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import styles from './page.module.css'
-import Button from '../buttons/Buttons'
-import Socials from '../socials/Socials'
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
+import styles from "./page.module.css"
+import Button from "../buttons/Buttons"
+import Socials from "../socials/Socials"
 
 export default function Card() {
 

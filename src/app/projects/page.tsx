@@ -11,9 +11,9 @@ const projects = [
     },
     {
         id: 2,
-        title: "Book Manager",
-        description: "Backend API for a book manager application, built using Golang, Gorilla/Mux, MongoDB & Mongoose. It allows users to perform CRUD operations on books.",
-        url: "https://github.com/prkshayush/go-projects/tree/main/go-mongo",
+        title: "Realm CRM",
+        description: "App designed to create campaign, manage audience relations and send bulk notifications. Create segment from audience for targetted campaigning.",
+        url: "https://realm-crm.vercel.app/",
         img: "/go1.jpg"
     },
     {
@@ -26,8 +26,8 @@ const projects = [
     {
         id: 4,
         title: "RemindRyt",
-        description: "Building this for the Google gemini AI hackathon, using gemini API, Python, Django. Currently in development.",
-        url: "/",
+        description: "Productivity & Accountability app for procrastinators, make groups, add friends and create tasks. AI tracks the progress and maintains leaderbaord alongwith an encouraging message.",
+        url: "https://github.com/prkshayush/remindryt",
         img: "/",
     },
 ]

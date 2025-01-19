@@ -13,18 +13,18 @@ export default function Menu() {
   const links = [
     {
         id: 1,
-        title: "Home",
-        url: '/',
+        title: "Experience",
+        url: '/#experience',
     },
     {
         id: 2,
         title: "Projects",
-        url: '/projects'
+        url: '/#projects'
     },
     {
         id: 3,
         title: "Contact",
-        url: '/contact'
+        url: '/#contact'
     },
   ]
 

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import Button from "../components/buttons/Buttons";
 
 export default function LoginPage() {
     const [username, setUsername] = useState("");
@@ -31,7 +32,7 @@ export default function LoginPage() {
         }
     };
     return (
-        <div className="flex justify-center items-center h-screen bg-gray-100">
+        <div className="flex justify-center items-center h-screen gap-10 bg-gray-100">
             <form onSubmit={handleLogin} className="bg-white p-6 rounded shadow-md">
                 <h1 className="text-2xl mb-4">Login</h1>
                 <input
@@ -53,6 +54,7 @@ export default function LoginPage() {
                     Login
                 </button>
             </form>
+            <Button text="Home" url="/" />
         </div>
     )
 }

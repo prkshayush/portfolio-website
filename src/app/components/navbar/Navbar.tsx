@@ -8,13 +8,13 @@ import Menu from '../menu/Menu'
 const links = [
     {
         id: 1,
-        title: "Home",
-        url: '/',
+        title: "Experience",
+        url: '/#experience',
     },
     {
         id: 2,
         title: "Projects",
-        url: '/projects'
+        url: '/#projects'
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const links = [
 
 export default function Navbar() {
     return (
-        <div className='flex justify-between items-center fixed w-full px-10 text-gray-800  bg-gray-100'>
+        <div className='flex justify-between items-center fixed w-full px-10 text-gray-800  bg-gray-100 z-[100]'>
             <Link href='/' className="">
                 <Image src='/logo-dark.png' alt='Logo' width={50} height={50} className="priortiy invert" />
             </Link>

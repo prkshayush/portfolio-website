@@ -4,9 +4,8 @@ import Card from '../card/Card'
 
 export default function Contact() {
   return (
-    <div className='w-full h-full p-10 bg-gradient-to-b from-gray-100 to-gray-300'>
-      <h1 className="text-2xl lg:text-5xl font-bold my-5 text-center uppercase text-teal-300">Contact</h1>
-      <h3 className="text-center lg:text-2xl mb-16 text-base">Wanna connect? Send a message!!</h3>
+    <div className='w-full h-full p-10'>
+      <h3 className="font-semibold lg:text-2xl my-12 text-center text-base">Wanna connect? Send a message!!</h3>
       
       {/* Content for the contact page */}
 

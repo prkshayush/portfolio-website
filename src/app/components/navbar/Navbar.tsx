@@ -18,22 +18,17 @@ const links = [
     },
     {
         id: 3,
-        title: "About",
-        url: '/#about'
-    },
-    {
-        id: 4,
         title: "Contact",
-        url: '/contact'
+        url: '/#contact'
     },
 ]
 
 
 export default function Navbar() {
     return (
-        <div className='flex justify-between items-center py-2 fixed w-full text-slate-300 bg-slate-950 z-[100]'>
-            <Link href='/' className="mx-10">
-                <Image src='/logo-dark.png' alt='Logo' width={70} height={70} className="priortiy" />
+        <div className='flex justify-between items-center fixed w-full px-10 text-gray-800  bg-gray-100'>
+            <Link href='/' className="">
+                <Image src='/logo-dark.png' alt='Logo' width={50} height={50} className="priortiy invert" />
             </Link>
             <Menu />
             <div className="hidden lg:flex lg:items-center lg:gap-5 lg:mx-12">

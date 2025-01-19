@@ -11,7 +11,7 @@ const Button = ({ text, url }: ButtonProps) => {
   return (
     <Link href={url}>
       <button className={styles.button}>
-        <span className="relative z-10">{text}</span>
+        <span className="relative z-1">{text}</span>
       </button>
     </Link>
   )

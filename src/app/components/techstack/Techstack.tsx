@@ -5,20 +5,24 @@ import styles from './page.module.css'
 export default function TechStack() {
     const images = [
         {
+            id: 1,
+            name: "JS",
+            url: '/js.svg',
+        },
+        {
             id: 2,
             name: "Python",
             url: '/python.svg',
         },
         {
-            id: 1,
-            name: "JS",
-            url: '/js.svg',
-        },
-        
-        {
             id: 3,
             name: "Go",
             url: '/golang.svg',
+        },
+        {
+            id: 4,
+            name: "Java",
+            url: '/java.svg',
         },
         {
             id: 5,
@@ -30,9 +34,15 @@ export default function TechStack() {
             name: "Docker",
             url: '/docker.svg',
         },
+        {
+            id: 7,
+            name: "AWS",
+            url: "/dynamo.svg"
+        },
     ]
   return (
-    <div className="flex items-center justify-between my-5 gap-5">
+    <div className="flex items-center justify-between lg:gap-5 gap-2">
+        <p>Tech stack</p>
         {images.map(image => (
         <Image key={image.id} src={image.url} alt={image.name} width={45} height={40} className={styles.links} />
         ))}

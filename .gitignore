@@ -13,10 +13,6 @@
 /.next/
 /out/
 
-# env files
-.env
-.env.*
-
 # production
 /build
 

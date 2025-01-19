@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold">hey there, I am Ayush</h1>
           <p>Software developer, crafting digital experiences, building epic stuff and gearing up for AGI...
             <br />
-            Engineer at heart, editing vids or exploring music when I&apos;m free.
+            Engineer at heart, editing vids or exploring music when I'm free.
             <br />
             Can talk about anything tech, interested in Neural networks!
           </p>

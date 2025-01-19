@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Reddit_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
 
 const reddit_mono = Reddit_Mono({ subsets: ["latin"]})
 

@@ -10,12 +10,12 @@ export default function Home() {
       <Navbar />
       <div className="bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col lg:flex-row md:flex-row items-center justify-between pt-20 p-5 lg:py-20 lg:px-28">
         <div className="lg:flex-1 flex flex-col gap-5 overflow-hidden lg:p-5">
-          <h1 className="text-3xl font-bold">hey there, I am Ayush</h1>
-          <p>Software developer, crafting digital experiences, building epic stuff and gearing up for AGI...
+          <h1 className="text-3xl font-bold">hey there, I&apos;m Ayush</h1>
+          <p>Engineer at heart, Software developer by profession. Love music, fav genre being Pop-rock/Indie-pop.
             <br />
-            Engineer at heart, editing vids or exploring music when I&apos;m free.
+            crafting digital experiences, building epic stuff and editing vids or exploring music when I&apos;m free.
             <br />
-            Can talk about anything tech, interested in Neural networks!
+            Can talk about anything tech, interested in Neural networks, gearing up for AGI !!
           </p>
           <TechStack />
           <Socials />

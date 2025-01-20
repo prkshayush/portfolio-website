@@ -41,10 +41,10 @@ export default function TechStack() {
         },
     ]
   return (
-    <div className="flex items-center justify-center lg:gap-5 gap-2">
-        <p>Tech stack</p>
+    <div className="flex items-center justify-center lg:gap-5 gap-1">
+        <p>Tech Stack</p>
         {images.map(image => (
-        <Image key={image.id} src={image.url} alt={image.name} width={45} height={40} className={styles.links} />
+        <Image key={image.id} src={image.url} alt={image.name} width={45} height={40} className={`${styles.links}`} />
         ))}
     </div>
   )

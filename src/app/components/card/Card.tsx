@@ -14,7 +14,7 @@ export default function Card() {
         <h2 className="text-xl font-bold">Ayush Prakash</h2>
         <Link href='https://www.threads.net/@prksh_ayush' className='text-[#33bcde] text-md font-normal hover:text-[#6BC2D7]'>@prksh_ayush</Link>
         <div className={styles.profileButton}>
-          <Button url='/' text='Resume' />
+          <Button url='https://drive.google.com/file/d/1PXqBaQ--3WA-DpKVOvkUTU_pPQjhbCA8/view' text='Resume' />
         </div>
         <div className='my-2'>
           <Socials />
